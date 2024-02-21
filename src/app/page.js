@@ -37,7 +37,7 @@ export default function Home() {
       >
         <Box>
           <Typography variant="h4" component="h1" sx={{ mb: 4 }}>
-            I Build Websites and Mobile Apps
+            I Build Websites and Mobile Apps... hello
           </Typography>
 
           <Typography variant="h6" sx={{ mb: 1 }}>
