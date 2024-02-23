@@ -1,20 +1,10 @@
 import * as React from "react";
 import Image from "next/image";
-import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Box, Link } from "@mui/material";
-import ProTip from "@/components/ProTip";
-import Copyright from "@/components/Copyright";
-import IconButton from "@mui/material/IconButton";
 import WarningAmberOutlinedIcon from "@mui/icons-material/WarningAmberOutlined";
 
 export default function Home() {
-  <script
-    src="https://platform.linkedin.com/badges/js/profile.js"
-    async
-    defer
-    type="text/javascript"
-  ></script>;
   return (
     <Box
       sx={{

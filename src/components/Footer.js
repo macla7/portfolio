@@ -1,41 +1,41 @@
-'use client';
+"use client";
 
-import React, { useEffect } from 'react';
-import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
-import Link from '@mui/material/Link';
-import NextLink from 'next/link';
-import EmailOutlinedIcon from '@mui/icons-material/Email';
-import SmartphoneOutlinedIcon from '@mui/icons-material/Smartphone';
-import Image from 'next/image';
+import React, { useEffect } from "react";
+import { AppBar, Toolbar, Typography, Button, Box } from "@mui/material";
+import Link from "@mui/material/Link";
+import NextLink from "next/link";
+import EmailOutlinedIcon from "@mui/icons-material/Email";
+import SmartphoneOutlinedIcon from "@mui/icons-material/Smartphone";
+import Image from "next/image";
 
 const Footer = () => {
-  useEffect(() => {
-    // Create a script element
-    const script = document.createElement('script');
-    script.src = 'https://platform.linkedin.com/badges/js/profile.js';
-    script.async = true;
-    script.defer = true;
-    script.type = 'text/javascript';
+  // useEffect(() => {
+  //   // Create a script element
+  //   const script = document.createElement('script');
+  //   script.src = 'https://platform.linkedin.com/badges/js/profile.js';
+  //   script.async = true;
+  //   script.defer = true;
+  //   script.type = 'text/javascript';
 
-    // Append the script to the document body
-    document.body.appendChild(script);
+  //   // Append the script to the document body
+  //   document.body.appendChild(script);
 
-    // Clean up
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
+  //   // Clean up
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   };
+  // }, []);
 
   return (
-    <AppBar position="static" style={{ top: 'auto', bottom: 0 }}>
+    <AppBar position="static" style={{ top: "auto", bottom: 0 }}>
       <Toolbar>
         <Box
           sx={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
             padding: 2,
-            width: '100%',
+            width: "100%",
           }}
         >
           {/* <div
@@ -54,8 +54,8 @@ const Footer = () => {
             ></a>
           </div> */}
 
-          <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <Button
+          <Box sx={{ display: "flex", alignItems: "center" }}>
+            {/* <Button
               component="a"
               href="https://www.linkedin.com/in/mitchel-clark-b26a02229/" // Replace with your app's URL
               target="_blank"
@@ -73,7 +73,7 @@ const Footer = () => {
                   height: 'auto', // Auto for maintaining aspect ratio
                 }}
               />
-            </Button>
+            </Button> */}
 
             <SmartphoneOutlinedIcon sx={{ fontSize: 24 }} />
             <Typography variant="body1" sx={{ pl: 1, pr: 6 }}>
