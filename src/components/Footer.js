@@ -11,11 +11,11 @@ import Image from "next/image";
 const Footer = () => {
   // useEffect(() => {
   //   // Create a script element
-  //   const script = document.createElement('script');
-  //   script.src = 'https://platform.linkedin.com/badges/js/profile.js';
+  //   const script = document.createElement("script");
+  //   script.src = "https://platform.linkedin.com/badges/js/profile.js";
   //   script.async = true;
   //   script.defer = true;
-  //   script.type = 'text/javascript';
+  //   script.type = "text/javascript";
 
   //   // Append the script to the document body
   //   document.body.appendChild(script);
@@ -55,7 +55,7 @@ const Footer = () => {
           </div> */}
 
           <Box sx={{ display: "flex", alignItems: "center" }}>
-            {/* <Button
+            <Button
               component="a"
               href="https://www.linkedin.com/in/mitchel-clark-b26a02229/" // Replace with your app's URL
               target="_blank"
@@ -70,10 +70,10 @@ const Footer = () => {
                 priority
                 style={{
                   width: 24,
-                  height: 'auto', // Auto for maintaining aspect ratio
+                  height: "auto", // Auto for maintaining aspect ratio
                 }}
               />
-            </Button> */}
+            </Button>
 
             <SmartphoneOutlinedIcon sx={{ fontSize: 24 }} />
             <Typography variant="body1" sx={{ pl: 1, pr: 6 }}>
