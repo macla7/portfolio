@@ -18,7 +18,7 @@ export default function About() {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          px: { xs: 2, md: 8 },
+          px: { xs: 2, sm: 2, md: 8 },
         }}
       >
         <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
@@ -27,7 +27,7 @@ export default function About() {
         <Box
           sx={{
             display: "flex",
-            flexDirection: { xs: "column", md: "row" },
+            flexDirection: { xs: "column", sm: "column", md: "row" },
             mt: 12,
           }}
         >
@@ -47,7 +47,11 @@ export default function About() {
         <Box
           sx={{
             display: "flex",
-            flexDirection: { xs: "column-reverse", md: "row" },
+            flexDirection: {
+              xs: "column-reverse",
+              sm: "column-reverse",
+              md: "row",
+            },
             mt: 12,
           }}
         >
@@ -64,7 +68,7 @@ export default function About() {
         <Box
           sx={{
             display: "flex",
-            flexDirection: { xs: "column", md: "row" },
+            flexDirection: { xs: "column", sm: "column", md: "row" },
             mt: 12,
           }}
         >

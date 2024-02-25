@@ -9,7 +9,7 @@ export default function Home() {
     <Box
       sx={{
         display: "flex",
-        flexDirection: { xs: "column", md: "row" }, // 'column' below 1024px, 'row' otherwise
+        flexDirection: { xs: "column", sm: "column", md: "row" }, // 'column' below 1024px, 'row' otherwise
         justifyContent: "space-around",
         marginTop: "50px",
       }}
@@ -30,41 +30,84 @@ export default function Home() {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            alignItems: { xs: "center", md: "start" },
+            alignItems: { xs: "center", sm: "center", md: "start" },
           }}
         >
-          <Typography variant="h4" component="h1" sx={{ mb: 4 }}>
+          <Typography
+            variant="h4"
+            component="h1"
+            sx={{
+              mb: 4,
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
             I Build Websites and Mobile Apps
           </Typography>
 
-          <Typography variant="h6" sx={{ mb: 1 }}>
+          <Typography
+            variant="h6"
+            sx={{
+              mb: 1,
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
             I Develop Backends
           </Typography>
-          <Typography variant="body1" sx={{ mb: 4 }}>
+          <Typography
+            variant="body1"
+            sx={{
+              mb: 4,
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
             With Java, Ruby, Python, NodeJS and SQL
           </Typography>
 
-          <Typography variant="h6" sx={{ mb: 1 }}>
+          <Typography
+            variant="h6"
+            sx={{
+              mb: 1,
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
             I Develop Frontends
           </Typography>
-          <Typography variant="body1" sx={{ mb: 4 }}>
+          <Typography
+            variant="body1"
+            sx={{
+              mb: 4,
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
             With HTML, CSS, Javascript and React
           </Typography>
 
-          <Typography variant="h6" sx={{ mb: 1 }}>
+          <Typography
+            variant="h6"
+            sx={{
+              mb: 1,
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
             I Develop Mobile Apps
           </Typography>
-          <Typography variant="body1" sx={{ mb: 4 }}>
+          <Typography
+            variant="body1"
+            sx={{
+              mb: 4,
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
             With React Native and Expo
           </Typography>
 
           <Box
             sx={{
               mt: 1,
-              mx: { xs: 4, md: 0 },
+              mx: { xs: 4, sm: 4, md: 0 },
               display: "flex",
               flexDirection: "row",
-              alignItems: { xs: "start", md: "center" },
+              alignItems: { xs: "start", sm: "start", md: "center" },
               justifyContent: "center",
             }}
           >
@@ -73,7 +116,7 @@ export default function Home() {
               sx={{
                 ml: 2,
                 color: "text.secondary",
-                textAlign: { xs: "center", md: "start" },
+                textAlign: { xs: "center", sm: "center", md: "start" },
               }}
             >
               I am a self taught developer. I don't have a degree in Computer
@@ -93,7 +136,7 @@ export default function Home() {
           alignItems: "end",
           maxWidth: "1000px",
           width: "100%",
-          padding: { xs: 4, md: 1 },
+          padding: { xs: 4, sm: 4, md: 1 },
         }}
       >
         <Image
@@ -114,7 +157,7 @@ export default function Home() {
           display="block"
           gutterBottom
           sx={{
-            pr: 2,
+            pr: 1,
             color: "text.secondary",
           }}
         >

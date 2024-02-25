@@ -25,11 +25,11 @@ export default function About() {
       <Box
         sx={{
           display: "flex",
-          flexDirection: { xs: "column", md: "row" },
+          flexDirection: { xs: "column", sm: "column", md: "row" },
           mt: 12,
         }}
       >
-        <Box sx={{ mr: { xs: 0, md: 6 }, pb: { xs: 2, md: 0 } }}>
+        <Box sx={{ mr: { xs: 0, sm: 0, md: 6 }, pb: { xs: 2, sm: 2, md: 0 } }}>
           <Image
             src="/images/mobile_app_examples.png"
             alt="Background Image"
@@ -48,7 +48,7 @@ export default function About() {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            alignItems: { xs: "center", md: "start" },
+            alignItems: { xs: "center", sm: "center", md: "start" },
           }}
         >
           <Typography variant="body1" sx={{ mb: 2 }}>
@@ -106,12 +106,12 @@ export default function About() {
       <Box
         sx={{
           display: "flex",
-          flexDirection: { xs: "column", md: "row" },
+          flexDirection: { xs: "column", sm: "column", md: "row" },
           mt: 24,
           mb: 12,
         }}
       >
-        <Box sx={{ mr: { xs: 0, md: 6 }, pb: { xs: 2, md: 0 } }}>
+        <Box sx={{ mr: { xs: 0, sm: 0, md: 6 }, pb: { xs: 2, sm: 2, md: 0 } }}>
           <Image
             src="/images/Westpac_logo_PNG2.png"
             alt="Background Image"
@@ -130,7 +130,7 @@ export default function About() {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            alignItems: { xs: "center", md: "start" },
+            alignItems: { xs: "center", sm: "center", md: "start" },
           }}
         >
           <Typography variant="body1" sx={{ mb: 2 }}>

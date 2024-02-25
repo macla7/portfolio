@@ -57,7 +57,7 @@ const Footer = () => {
           <Box
             sx={{
               display: "flex",
-              flexDirection: { xs: "column", md: "row" },
+              flexDirection: { xs: "column", sm: "column", md: "row" },
               justifyContent: "center",
               alignItems: "center",
               width: "100%",
@@ -68,7 +68,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/mitchel-clark-b26a02229/" // Replace with your app's URL
               target="_blank"
               rel="noopener noreferrer"
-              sx={{ mr: 6 }}
+              sx={{ mr: { xs: 0, sm: 0, md: 6 } }}
             >
               <Image
                 src="/images/In-White-96.png"
@@ -86,11 +86,12 @@ const Footer = () => {
             <Box
               sx={{
                 display: "flex",
-                mt: { xs: 2, md: 0 },
+                mt: { xs: 2, sm: 2, md: 0 },
+                mr: { xs: 0, sm: 0, md: 6 },
               }}
             >
               <SmartphoneOutlinedIcon sx={{ fontSize: 24 }} />
-              <Typography variant="body1" sx={{ pl: 1, pr: 6 }}>
+              <Typography variant="body1" sx={{ pl: 1 }}>
                 0478 291 959
               </Typography>
             </Box>
@@ -98,11 +99,11 @@ const Footer = () => {
             <Box
               sx={{
                 display: "flex",
-                mt: { xs: 2, md: 0 },
+                mt: { xs: 2, sm: 2, md: 0 },
               }}
             >
               <EmailOutlinedIcon sx={{ fontSize: 24 }} />
-              <Typography variant="body1" sx={{ pl: 1, pr: 6 }}>
+              <Typography variant="body1" sx={{ pl: 1 }}>
                 mitchelclark1997@outlook.com
               </Typography>
             </Box>
