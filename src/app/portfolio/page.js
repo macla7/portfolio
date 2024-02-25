@@ -61,12 +61,12 @@ export default function About() {
           <Typography variant="body1" sx={{ mb: 2 }}>
             Design andwireframe creation with Figma and Canva.
           </Typography>
+
           <Box
             sx={{
               display: "flex",
-              justifyContent: "space-around",
-
               width: "100%",
+              mb: 2,
             }}
           >
             <Button
@@ -74,13 +74,11 @@ export default function About() {
               href="https://apps.apple.com/au/app/shift-pals/id6449267356" // Replace with your app's URL
               target="_blank"
               rel="noopener noreferrer"
-              style={{
-                padding: 0,
-              }}
+              sx={{ padding: 0, mr: 2 }}
             >
               <img
                 src="/images/app-store-badge.svg"
-                alt="Google Play Badge"
+                alt="App store badge"
                 style={{ height: 50 }}
               />
             </Button>
@@ -97,6 +95,26 @@ export default function About() {
                 src="/images/cropped-android.png"
                 alt="Google Play Badge"
                 style={{ height: 50 }}
+              />
+            </Button>
+          </Box>
+          <Box sx={{ display: "flex", width: "100%" }}>
+            <Button
+              component="a"
+              href="https://github.com/macla7/STAPI" // Replace with your app's URL
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{}}
+            >
+              <img
+                src="/images/github-mark-white.png"
+                alt="Github cat logo"
+                style={{ height: 30 }}
+              />
+              <img
+                src="/images/GitHub_Logo_White.png"
+                alt="Github logo"
+                style={{ height: 40 }}
               />
             </Button>
           </Box>
