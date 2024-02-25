@@ -1,29 +1,35 @@
-import * as React from 'react';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import NextLink from 'next/link';
+import * as React from "react";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import NextLink from "next/link";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function About() {
   return (
     <Box
       sx={{
         my: 4,
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
         mx: 8,
       }}
     >
       {/* <Typography variant="h4" component="h1">
         Portfolio
       </Typography> */}
-      <Box sx={{ display: 'flex', flexDirection: 'row', mt: 12 }}>
-        <Box sx={{ mr: 6 }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: { xs: "column", md: "row" },
+          mt: 12,
+        }}
+      >
+        <Box sx={{ mr: { xs: 0, md: 6 }, pb: { xs: 2, md: 0 } }}>
           <Image
             src="/images/mobile_app_examples.png"
             alt="Background Image"
@@ -31,29 +37,38 @@ export default function About() {
             height={3125} // Natural height of the image
             priority
             style={{
-              width: '100%',
-              height: 'auto', // Auto for maintaining aspect ratio
-              maxWidth: '900px',
+              width: "100%",
+              height: "auto", // Auto for maintaining aspect ratio
+              maxWidth: "900px",
             }}
           />
         </Box>
         <Box
           sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: { xs: "center", md: "start" },
           }}
         >
           <Typography variant="body1" sx={{ mb: 2 }}>
             React Native frontend and Ruby on Rails API.
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
-            Integration with AWS microservices including S3 storage, route 53 and SES.
+            Integration with AWS microservices including S3 storage, route 53
+            and SES.
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
             Design andwireframe creation with Figma and Canva.
           </Typography>
-          <Box sx={{ display: 'flex', justifyContent: 'space-around' }}>
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "space-around",
+
+              width: "100%",
+            }}
+          >
             <Button
               component="a"
               href="https://apps.apple.com/au/app/shift-pals/id6449267356" // Replace with your app's URL
@@ -88,8 +103,15 @@ export default function About() {
         </Box>
       </Box>
 
-      <Box sx={{ display: 'flex', flexDirection: 'row', mt: 24, mb: 12 }}>
-        <Box sx={{ mr: 6 }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: { xs: "column", md: "row" },
+          mt: 24,
+          mb: 12,
+        }}
+      >
+        <Box sx={{ mr: { xs: 0, md: 6 }, pb: { xs: 2, md: 0 } }}>
           <Image
             src="/images/Westpac_logo_PNG2.png"
             alt="Background Image"
@@ -97,17 +119,18 @@ export default function About() {
             height={3125} // Natural height of the image
             priority
             style={{
-              width: '100%',
-              height: 'auto', // Auto for maintaining aspect ratio
-              maxWidth: '300px',
+              width: "100%",
+              height: "auto", // Auto for maintaining aspect ratio
+              maxWidth: "300px",
             }}
           />
         </Box>
         <Box
           sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: { xs: "center", md: "start" },
           }}
         >
           <Typography variant="body1" sx={{ mb: 2 }}>

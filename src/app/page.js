@@ -25,7 +25,14 @@ export default function Home() {
           marginRight: "30px", // Add some space between content and image
         }}
       >
-        <Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: { xs: "center", md: "start" },
+          }}
+        >
           <Typography variant="h4" component="h1" sx={{ mb: 4 }}>
             I Build Websites and Mobile Apps
           </Typography>
@@ -51,9 +58,24 @@ export default function Home() {
             With React Native and Expo
           </Typography>
 
-          <Box sx={{ mt: 6, display: "flex", flexDirection: "row" }}>
+          <Box
+            sx={{
+              mt: 1,
+              mx: { xs: 4, md: 0 },
+              display: "flex",
+              flexDirection: "row",
+              alignItems: { xs: "start", md: "center" },
+              justifyContent: "center",
+            }}
+          >
             <WarningAmberOutlinedIcon />
-            <Typography sx={{ ml: 2, color: "text.secondary" }}>
+            <Typography
+              sx={{
+                ml: 2,
+                color: "text.secondary",
+                textAlign: { xs: "center", md: "start" },
+              }}
+            >
               I am a self taught developer. I don't have a degree in Computer
               Science, I just get things done.
             </Typography>
@@ -63,7 +85,17 @@ export default function Home() {
         </Box>
       </Box>
 
-      <Box sx={{ maxWidth: "1000px", width: "100%" }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+
+          alignItems: "end",
+          maxWidth: "1000px",
+          width: "100%",
+          padding: { xs: 4, md: 1 },
+        }}
+      >
         <Image
           src="/images/background.webp"
           alt="Background Image"
@@ -77,6 +109,17 @@ export default function Home() {
             borderRadius: "7px",
           }}
         />
+        <Typography
+          variant="caption"
+          display="block"
+          gutterBottom
+          sx={{
+            pr: 2,
+            color: "text.secondary",
+          }}
+        >
+          Pitching a startup to a crowd of 350 people
+        </Typography>
       </Box>
     </Box>
   );

@@ -54,7 +54,15 @@ const Footer = () => {
             ></a>
           </div> */}
 
-          <Box sx={{ display: "flex", alignItems: "center" }}>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: { xs: "column", md: "row" },
+              justifyContent: "center",
+              alignItems: "center",
+              width: "100%",
+            }}
+          >
             <Button
               component="a"
               href="https://www.linkedin.com/in/mitchel-clark-b26a02229/" // Replace with your app's URL
@@ -75,15 +83,29 @@ const Footer = () => {
               />
             </Button>
 
-            <SmartphoneOutlinedIcon sx={{ fontSize: 24 }} />
-            <Typography variant="body1" sx={{ pl: 1, pr: 6 }}>
-              0478 291 959
-            </Typography>
+            <Box
+              sx={{
+                display: "flex",
+                mt: { xs: 2, md: 0 },
+              }}
+            >
+              <SmartphoneOutlinedIcon sx={{ fontSize: 24 }} />
+              <Typography variant="body1" sx={{ pl: 1, pr: 6 }}>
+                0478 291 959
+              </Typography>
+            </Box>
 
-            <EmailOutlinedIcon sx={{ fontSize: 24 }} />
-            <Typography variant="body1" sx={{ pl: 1, pr: 6 }}>
-              mitchelclark1997@outlook.com
-            </Typography>
+            <Box
+              sx={{
+                display: "flex",
+                mt: { xs: 2, md: 0 },
+              }}
+            >
+              <EmailOutlinedIcon sx={{ fontSize: 24 }} />
+              <Typography variant="body1" sx={{ pl: 1, pr: 6 }}>
+                mitchelclark1997@outlook.com
+              </Typography>
+            </Box>
           </Box>
         </Box>
       </Toolbar>
