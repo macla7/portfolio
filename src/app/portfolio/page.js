@@ -25,7 +25,6 @@ export default function About() {
       <Typography
         variant="h2"
         sx={{
-          mt: 12,
           textAlign: { xs: "center", sm: "center", md: "start" },
         }}
       >
