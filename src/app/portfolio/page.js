@@ -22,11 +22,28 @@ export default function About() {
       {/* <Typography variant="h4" component="h1">
         Portfolio
       </Typography> */}
+      <Typography
+        variant="h2"
+        sx={{
+          mt: 12,
+          textAlign: { xs: "center", sm: "center", md: "start" },
+        }}
+      >
+        Shift It.
+      </Typography>
+      <Typography
+        variant="h5"
+        sx={{
+          mb: 2,
+          textAlign: { xs: "center", sm: "center", md: "start" },
+        }}
+      >
+        Founder
+      </Typography>
       <Box
         sx={{
           display: "flex",
           flexDirection: { xs: "column", sm: "column", md: "row" },
-          mt: 12,
         }}
       >
         <Box sx={{ mr: { xs: 0, sm: 0, md: 6 }, pb: { xs: 2, sm: 2, md: 0 } }}>
@@ -52,14 +69,17 @@ export default function About() {
           }}
         >
           <Typography variant="body1" sx={{ mb: 2 }}>
-            React Native frontend and Ruby on Rails API.
+            Funding from Monash University
+          </Typography>
+          <Typography variant="body1" sx={{ mb: 2 }}>
+            React Native frontend and Ruby on Rails API
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
             Integration with AWS microservices including S3 storage, route 53
             and SES.
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
-            Design andwireframe creation with Figma and Canva.
+            Design and wireframe creation with Figma and Canva
           </Typography>
 
           <Box
@@ -121,11 +141,28 @@ export default function About() {
         </Box>
       </Box>
 
+      <Typography
+        variant="h2"
+        sx={{
+          mt: 12,
+          textAlign: { xs: "center", sm: "center", md: "start" },
+        }}
+      >
+        Westpac
+      </Typography>
+      <Typography
+        variant="h5"
+        sx={{
+          mb: 4,
+          textAlign: { xs: "center", sm: "center", md: "start" },
+        }}
+      >
+        Full Stack Developer
+      </Typography>
       <Box
         sx={{
           display: "flex",
           flexDirection: { xs: "column", sm: "column", md: "row" },
-          mt: 24,
           mb: 12,
         }}
       >
@@ -152,7 +189,7 @@ export default function About() {
           }}
         >
           <Typography variant="body1" sx={{ mb: 2 }}>
-            Internal Webapp for Trading teams
+            Internal webapp for trading teams
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
             HTML, CSS and Javascript Frontend

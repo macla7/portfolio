@@ -101,28 +101,24 @@ export default function Home() {
             With React Native and Expo
           </Typography>
 
-          <Box
+          <Typography
+            variant="h6"
             sx={{
-              mt: 1,
-              mx: { xs: 4, sm: 4, md: 0 },
-              display: "flex",
-              flexDirection: "row",
-              alignItems: { xs: "start", sm: "start", md: "center" },
-              justifyContent: "center",
+              mb: 1,
+              textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            <WarningAmberOutlinedIcon />
-            <Typography
-              sx={{
-                ml: 2,
-                color: "text.secondary",
-                textAlign: { xs: "center", sm: "center", md: "start" },
-              }}
-            >
-              I am a self taught developer. I don't have a degree in Computer
-              Science, I just get things done.
-            </Typography>
-          </Box>
+            I Am Self Taught
+          </Typography>
+          <Typography
+            variant="body1"
+            sx={{
+              mb: 4,
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
+            I get things done.
+          </Typography>
 
           {/* <Copyright /> */}
         </Box>
@@ -161,7 +157,7 @@ export default function Home() {
             color: "text.secondary",
           }}
         >
-          Pitching a startup to a crowd of 350 people
+          Pitching my startup for the Monash Uiversity Accelerator
         </Typography>
       </Box>
     </Box>
