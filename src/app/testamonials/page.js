@@ -37,7 +37,7 @@ export default function About() {
           <Typography variant="body1" sx={{ mb: 2 }}>
             You have had a fantastic quarter MC. You have refined many of your
             skills and are developing into a strong full-stack developer. In
-            particular, your customer contacts implementation shows that you you
+            particular, your customer contacts implementation shows that you
             have excelled in your ability to build quality software, discuss
             requirements with the business and refine your solution to meet the
             business needs. It's been a pleasure working with you. Great work!

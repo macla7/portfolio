@@ -1,7 +1,7 @@
 import * as React from "react";
 import Image from "next/image";
 import Typography from "@mui/material/Typography";
-import { Box, Link } from "@mui/material";
+import { Box, Link, Button } from "@mui/material";
 import WarningAmberOutlinedIcon from "@mui/icons-material/WarningAmberOutlined";
 
 export default function Home() {
@@ -51,16 +51,24 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            I Develop Backends
+            I Develop Frontends
           </Typography>
           <Typography
             variant="body1"
+            sx={{
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
+            With HTML, CSS, Javascript and React
+          </Typography>
+          <Typography
+            variant="caption"
             sx={{
               mb: 4,
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            With Java, Ruby, Python, NodeJS and SQL
+            4 years
           </Typography>
 
           <Typography
@@ -70,16 +78,40 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            I Develop Frontends
+            I Develop Backends
           </Typography>
           <Typography
             variant="body1"
+            sx={{
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
+            With Java, Python and NodeJS
+          </Typography>
+          <Typography
+            variant="caption"
+            sx={{
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
+            1 year
+          </Typography>
+          <Typography
+            variant="body1"
+            sx={{
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
+            With Ruby and SQL (primarily PostgreSQL and Microsoft SQL Server)
+          </Typography>
+          <Typography
+            variant="caption"
             sx={{
               mb: 4,
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            With HTML, CSS, Javascript and React
+            3 years
           </Typography>
 
           <Typography
@@ -94,11 +126,19 @@ export default function Home() {
           <Typography
             variant="body1"
             sx={{
-              mb: 4,
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
             With React Native and Expo
+          </Typography>
+          <Typography
+            variant="caption"
+            sx={{
+              mb: 4,
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
+            2 years
           </Typography>
 
           <Typography
@@ -119,6 +159,15 @@ export default function Home() {
           >
             I get things done.
           </Typography>
+
+          <Button
+            size="large"
+            variant="contained"
+            href="/portfolio"
+            component="a"
+          >
+            Portfolio
+          </Button>
 
           {/* <Copyright /> */}
         </Box>
@@ -157,7 +206,7 @@ export default function Home() {
             color: "text.secondary",
           }}
         >
-          Pitching my startup for the Monash Uiversity Accelerator
+          Pitching my startup for the Monash University Accelerator
         </Typography>
       </Box>
     </Box>
