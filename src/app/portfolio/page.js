@@ -72,7 +72,7 @@ export default function About() {
             App to help nurses swap and manage their shifts
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
-            Funding from Monash University
+            Awarding funding from the Monash University Startup Accelerator
           </Typography>
           <Typography variant="h5" sx={{ mb: 2 }}>
             Technical Work
@@ -171,7 +171,7 @@ export default function About() {
           textAlign: { xs: "center", sm: "center", md: "start" },
         }}
       >
-        Full Stack Developer
+        Full Stack Developer & Scrum Master
       </Typography>
       <Box
         sx={{
@@ -211,16 +211,20 @@ export default function About() {
             Internal webapp for trading teams
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
-            Was the scrum master for my Agile full stack development team. My
-            responsibility is to keep the team on track and prioritise
-            effectively to continuously deliver improvements for the users
+            Contract role to deliver key features before hard deadlines
           </Typography>
+
+          <Typography variant="body1" sx={{ mb: 2 }}>
+            My responsibility was to keep the team on track and prioritise
+            effectively to continuously deliver improvements for end users
+          </Typography>
+
           <Typography variant="h5" sx={{ mb: 2 }}>
             Technical Work
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
             Frontend built using HTML, CSS, Javascript, Bootstrap, and JQuery to
-            build custom and reusable components
+            deliver custom and reusable components
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
             Implemented comprehensive regression tests for all the key user

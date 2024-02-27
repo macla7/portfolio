@@ -51,7 +51,7 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            I Develop Frontends
+            Frontends
           </Typography>
           <Typography
             variant="body1"
@@ -78,7 +78,7 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            I Develop Backends
+            Backends
           </Typography>
           <Typography
             variant="body1"
@@ -121,7 +121,7 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            I Develop Mobile Apps
+            Mobile Apps
           </Typography>
           <Typography
             variant="body1"
@@ -148,7 +148,7 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            I Am Self Taught
+            Self Taught
           </Typography>
           <Typography
             variant="body1"
