@@ -59,7 +59,23 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            With HTML, CSS, Javascript and React
+            HTML, CSS and Javascript
+          </Typography>
+          <Typography
+            variant="caption"
+            sx={{
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
+            4 years
+          </Typography>
+          <Typography
+            variant="body1"
+            sx={{
+              textAlign: { xs: "center", sm: "center", md: "start" },
+            }}
+          >
+            ReactJS
           </Typography>
           <Typography
             variant="caption"
@@ -68,7 +84,7 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            4 years
+            1 year
           </Typography>
 
           <Typography
@@ -86,7 +102,7 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            With Java, Python and NodeJS
+            Java, Python and NodeJS
           </Typography>
           <Typography
             variant="caption"
@@ -102,7 +118,7 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            With Ruby and SQL (primarily PostgreSQL and Microsoft SQL Server)
+            Ruby and SQL (primarily PostgreSQL and Microsoft SQL Server)
           </Typography>
           <Typography
             variant="caption"
@@ -129,7 +145,7 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            With React Native and Expo
+            React Native and Expo
           </Typography>
           <Typography
             variant="caption"
