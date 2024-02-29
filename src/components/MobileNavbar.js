@@ -12,6 +12,7 @@ import {
 } from "@mui/material";
 import Link from "@mui/material/Link";
 import NextLink from "next/link";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const MobileNavbar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -39,7 +40,7 @@ const MobileNavbar = () => {
             onClick={handleClick}
             sx={{ color: "#fff" }}
           >
-            Dashboard
+            <MenuIcon sx={{ fontSize: 24 }} />
           </Button>
           <Menu
             id="basic-menu"

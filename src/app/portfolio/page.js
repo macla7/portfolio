@@ -72,7 +72,7 @@ export default function About() {
             App to help nurses swap and manage their shifts
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
-            Awarding funding from the Monash University Startup Accelerator
+            Awarded funding from the Monash University Startup Accelerator
           </Typography>
           <Typography variant="h5" sx={{ mb: 2 }}>
             Technical Work
