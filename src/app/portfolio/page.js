@@ -63,6 +63,7 @@ export default function About() {
             flexDirection: "column",
             justifyContent: "center",
             alignItems: { xs: "center", sm: "center", md: "start" },
+            textAlign: "center",
           }}
         >
           <Typography variant="h5" sx={{ mb: 2 }}>
@@ -201,6 +202,7 @@ export default function About() {
             flexDirection: "column",
             justifyContent: "start",
             alignItems: { xs: "center", sm: "center", md: "start" },
+            textAlign: "center",
             maxWidth: { xs: "100%", sm: "100%", md: "30%" },
           }}
         >
@@ -258,7 +260,8 @@ export default function About() {
         sx={{
           display: "flex",
           justifyContent: "center",
-          alignItems: { xs: "center", sm: "center", md: "center" },
+          alignItems: { xs: "center", sm: "center", md: "start" },
+          textAlign: "center",
           flexDirection: { xs: "column", sm: "column", md: "row" },
           mb: 12,
         }}
