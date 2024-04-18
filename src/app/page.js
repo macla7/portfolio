@@ -84,7 +84,7 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            1 year
+            3 years
           </Typography>
 
           <Typography
