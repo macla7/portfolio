@@ -8,7 +8,7 @@ import ProTip from "@/components/ProTip";
 import Copyright from "@/components/Copyright";
 import Image from "next/image";
 
-export default function About() {
+export default function Testimonials() {
   return (
     <Container maxWidth="lg">
       <Box
