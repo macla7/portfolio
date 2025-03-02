@@ -18,8 +18,8 @@ const Navbar = () => {
           <Link href="/portfolio" component={NextLink}>
             <Button sx={{ color: "#fff" }}>Portfolio</Button>
           </Link>
-          <Link href="/testamonials" component={NextLink}>
-            <Button sx={{ color: "#fff" }}>Testamonials</Button>
+          <Link href="/testimonials" component={NextLink}>
+            <Button sx={{ color: "#fff" }}>Testimonials</Button>
           </Link>
         </Box>
       </Toolbar>

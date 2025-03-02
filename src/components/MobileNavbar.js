@@ -81,7 +81,7 @@ const MobileNavbar = () => {
 
             <Link
               component={NextLink}
-              href="/testamonials"
+              href="/testimonials"
               sx={{
                 textDecoration: "none",
                 color: "inherit",
@@ -90,7 +90,7 @@ const MobileNavbar = () => {
                 },
               }}
             >
-              <MenuItem onClick={handleClose}>Testamonials</MenuItem>
+              <MenuItem onClick={handleClose}>Testimonials</MenuItem>
             </Link>
           </Menu>
         </Box>
