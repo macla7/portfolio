@@ -1,3 +1,5 @@
+"use client";
+
 import * as React from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
@@ -105,9 +107,14 @@ export default function About() {
             }}
           >
             <Button
-              component="a"
-              href="https://apps.apple.com/au/app/shift-pals/id6449267356" // Replace with your app's URL
-              target="_blank"
+              // component="a"
+              // href="https://apps.apple.com/au/app/shift-pals/id6449267356" // Replace with your app's URL
+              // target="_blank"
+              onClick={() =>
+                alert(
+                  "UPDATE: Unfortunately, due to inactivity and running costs, I had to take down the App Store presence"
+                )
+              }
               rel="noopener noreferrer"
               sx={{ padding: 0, mr: 2 }}
             >
@@ -118,9 +125,14 @@ export default function About() {
               />
             </Button>
             <Button
-              component="a"
-              href="https://play.google.com/store/apps/details?id=com.macla7.shift_it&pli=1" // Replace with your app's URL
-              target="_blank"
+              // component="a"
+              // href="https://play.google.com/store/apps/details?id=com.macla7.shift_it&pli=1" // Replace with your app's URL
+              // target="_blank"
+              onClick={() =>
+                alert(
+                  "UPDATE: Unfortunately, due to inactivity and running costs, I had to take down the Google Play presence"
+                )
+              }
               rel="noopener noreferrer"
               style={{
                 padding: 0,
