@@ -58,7 +58,7 @@ export default function About() {
       >
         <Box sx={{ mr: { xs: 0, sm: 0, md: 6 }, pb: { xs: 2, sm: 2, md: 0 } }}>
           <Image
-            src="/images/image.png"
+            src="/images/rango_snip.png"
             alt="Background Image"
             width={3125} // Natural width of the image
             height={3125} // Natural height of the image
