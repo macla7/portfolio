@@ -154,7 +154,7 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            2 years
+            1 year
           </Typography>
 
           <Typography
@@ -173,7 +173,7 @@ export default function Home() {
               textAlign: { xs: "center", sm: "center", md: "start" },
             }}
           >
-            I get things done.
+            Passionate about all things tech!
           </Typography>
 
           <Button
