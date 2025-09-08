@@ -24,6 +24,117 @@ export default function About() {
       <Typography
         variant="h2"
         sx={{
+          mt: 12,
+          textAlign: { xs: "center", sm: "center", md: "start" },
+        }}
+      >
+        Rango
+      </Typography>
+      <Typography
+        variant="h5"
+        sx={{
+          mb: 1,
+          textAlign: { xs: "center", sm: "center", md: "start" },
+        }}
+      >
+        Launching October 2025
+      </Typography>
+      <Typography
+        variant="h5"
+        sx={{
+          mb: 4,
+          textAlign: { xs: "center", sm: "center", md: "start" },
+        }}
+      >
+        Co-Founder
+      </Typography>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: { xs: "center", sm: "center", md: "center" },
+          flexDirection: { xs: "column", sm: "column", md: "row" },
+        }}
+      >
+        <Box sx={{ mr: { xs: 0, sm: 0, md: 6 }, pb: { xs: 2, sm: 2, md: 0 } }}>
+          <Image
+            src="/images/image.png"
+            alt="Background Image"
+            width={3125} // Natural width of the image
+            height={3125} // Natural height of the image
+            priority
+            style={{
+              width: "100%",
+              height: "auto", // Auto for maintaining aspect ratio
+              maxWidth: "900px",
+            }}
+          />
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "start",
+            alignItems: { xs: "center", sm: "center", md: "start" },
+            textAlign: { xs: "center", sm: "center", md: "start" },
+            maxWidth: { xs: "100%", sm: "100%", md: "30%" },
+          }}
+        >
+          <Typography variant="h5" sx={{ mb: 2 }}>
+            Project
+          </Typography>
+
+          <Typography variant="body1" sx={{ mb: 2 }}>
+            Side project whilst studying at University
+          </Typography>
+
+          <Typography variant="h5" sx={{ mb: 2 }}>
+            Technical Work
+          </Typography>
+          <Typography variant="body1" sx={{ mb: 2 }}>
+            React webapp, styled using Tailwind CSS
+          </Typography>
+          <Typography variant="body1" sx={{ mb: 2 }}>
+            AWS backend, using lambda functions, API Gateway, DynamoDB and S3
+            and more!
+          </Typography>
+
+          <Button
+            size="large"
+            variant="contained"
+            href="https://www.rango.com.au"
+            component="a"
+            sx={{ mb: 2 }}
+            target="_blank"
+          >
+            Visit rango (Work in Progress)
+          </Button>
+
+          <Button
+            component="a"
+            href="https://github.com/macla7/refbook" // Replace with your app's URL
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{}}
+          >
+            <img
+              src="/images/github-mark-white.png"
+              alt="Github cat logo"
+              style={{ height: 30 }}
+            />
+            <img
+              src="/images/GitHub_Logo_White.png"
+              alt="Github logo"
+              style={{ height: 40 }}
+            />
+          </Button>
+        </Box>
+      </Box>
+
+      <Typography
+        variant="h2"
+        sx={{
+          mt: 12,
           textAlign: { xs: "center", sm: "center", md: "start" },
         }}
       >
